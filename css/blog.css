@@ -1,43 +1,43 @@
 /* Inserta tu codigo aqui */
 
-
-.img-blog {
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	height: 250px;
+.container-hero {
+	background-color: whitesmoke;
+    text-align:"center";
 }
 
-.blog {
-	background-image: url(../img/blog1.jpg); 
+.imgs-blog {
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 250px;
+}
+.blog1 {
+    height: 250px;
+    width: 350px;
 }
 
 .profesor_5 {
 	background-image: url(../img/profesor_5.jpg);
+    width: 250px;
 }
-
 .instructor_3 {
 	background-image: url(../img/instructor_3.jpg);
+    width: 250px;
 }
-
 .info {
 	margin-bottom: -12px;
-	font-size: 15px;
+	font-size: 21px;
 }
-
-.bt-ver-mas {
+.vermas {
 	padding: 10px 70px;
 	background-color: #192951;
 	border-radius: 3px;
 	margin-top: 40px;
 	display: inline-block;
 }
-
-.arte {
+.arts {
 	background-color: #CCC9D4;
 	margin-left: -27px !important;
 }
-
-.padding-art {
+.pad-arts {
 	padding: 10px 0px 7px 40px;
 }
