@@ -1,4 +1,51 @@
 /* Inserta tu codigo aqui */
+/***************HERO*********/
+.hero {
+    background: url(../img/dance_1.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    display: table;
+}
+
+.hero .studio{
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    color:#fff;  
+    margin-top: 60px;
+    margin-left: 100px; 
+}
+
+.hero .studio h1{
+    font-weight: bolder; 
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.hero .studio p{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+/***************OFERTAS*********/
+.ofertas {
+    text-align: center;
+    height: 400px;
+    
+}
+
+.ofertas .descripcion{
+    width: 100px;
+    height: 70px;
+    display: block;
+}
+.ofertas .decoracion{
+    width: 100px;
+    height: 70px;
+    display: block;
+}
 /***************CONTACTANOS*********/
 .contenido {
     background: url(../img/shoes_1.jpg) no-repeat;
