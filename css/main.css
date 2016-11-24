@@ -29,23 +29,123 @@
     font-size: 15px;
 }
 
-/***************OFERTAS*********/
-.ofertas {
+.boton1 {
+    display: block; 
+    width: 120px;
+    border-radius: 5px;
+    position:relative;
+    top: 10%; 
     text-align: center;
-    height: 400px;
-    
+    color: white;
+    background-color: #00001a;
+    line-height: 40px;
+    vertical-align: middle;
 }
 
-.ofertas .descripcion{
-    width: 100px;
-    height: 70px;
-    display: block;
+/***************OFERTAS*********/
+.ofertas {
+    width: 100%; 
+    height: 300px; 
+
 }
-.ofertas .decoracion{
-    width: 100px;
+
+.descripcion{
+    width: 600px;
     height: 70px;
-    display: block;
+    text-align: center;
+    margin: 80px auto;
+    font-size: 20px;
 }
+.decoracion{
+    width: 150px;
+    height: 80px;
+    display: block;
+    margin: 20px auto;
+}
+
+.boton2 {
+    display: block; 
+    width: 400px;
+    border-radius: 5px;
+    position:relative;
+    top: 50%; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #00004d;
+    line-height: 80px;
+    vertical-align: middle;
+}
+/***************INSTRUCTORES*********/
+
+.instructores {
+    margin-top: 80px;
+    height: 345px;
+}
+.instructor1 {
+    background: url(../img/instructor_4.jpg) no-repeat;
+    background-size: cover;
+    height: 345px;
+     }
+
+.instructor2 {
+    background: url(../img/profesor_9.jpg) no-repeat;
+    background-size: cover;
+    height: 345px;
+}
+
+.boton3 {
+    display: inline-block; 
+    width: 600px; 
+    position:relative;
+    top: 50%; 
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: #00004d;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+/***************FRASE***************/
+.motivacion {
+    background-image: url("../img/cubes.png");
+    background-size:cover;
+    width: 100%;
+    line-height: 250px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/***************UBICACION***************/
+.ubicacion{
+    background-color: #00004d;
+    height: 400px;
+    color: white;
+}
+
+.visitanos {
+    text-align: center;
+}
+
+.row .mapa{
+    top: 50%; 
+    left: 50%;
+    transform: translateX(-75%) translateY(25%);
+}
+
+.visita{
+    top: 50%; 
+    left: 50%;
+    transform: translateX(-130%) translateY(25%);
+    text-align: left;
+}
+
 /***************CONTACTANOS*********/
 .contenido {
     background: url(../img/shoes_1.jpg) no-repeat;
