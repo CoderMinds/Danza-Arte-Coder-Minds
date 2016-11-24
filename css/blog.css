@@ -1,8 +1,15 @@
 /* Inserta tu codigo aqui */
-
 .container-hero {
 	background-color: whitesmoke;
     text-align:"center";
+}
+.container-hero h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0px;
 }
 
 .imgs-blog {

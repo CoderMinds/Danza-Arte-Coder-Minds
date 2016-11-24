@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" href="css/">
 </head>
 <body>
 	<!-- Inserta tu código aqui -->
@@ -18,12 +17,12 @@
           <li><a href="nosotros.html" target="_blank">Nosotros</a></li>
           <li><a href="clases.html" target="_blank">Clases</a></li>
           <li><a href="blog.html" target="_blank" >Blog</a></li>
-          <li><a href="#contactanos" target="_blank">Contáctanos</a></li>
+          <li><a href="#contactanos">Contáctanos</a></li>
       </ul>  
     </header>
 
 <!-- INICIO DE SECCION HERO-->    
-    <section class="hero container">
+    <section class="hero contenedor">
       <div class="studio">
          <h1>STUDIO</h1>
          <p>Julliart Studios is the perfect place to find your feet with over 20 unique styles of dance and 80 teachers to choose from.</p>
@@ -51,7 +50,6 @@
   <div class="motivacion">
     <em>"La danza es un poema en el que cada movimiento es una palabra."</em>
   </div>
-  </div>
 
 <!--INICIO DE UBICACION-->
   <div class="ubicacion">
@@ -75,18 +73,22 @@
        <a name="contactanos"></a>
        <h2 class="text-blue">Contáctanos</h2>    
        <form action="">
-         <label class="user" for="nombre"></label>
-         <input type="text" id="nombre" placeholder="Nombre">
-         <input type="text" id="email" placeholder="Email">
-         <label class="message" for="mensaje"></label>
-         <textarea type="text" id="mensaje" placeholder="Mensaje"></textarea>
+        <div>
+         <input type="text" id="nombre" placeholder="Nombre"> <img class="name" src="img/name.png" width="20px" alt="">
+        </div>
+        <div>
+         <input type="text" id="email" placeholder="Email"> <img class="mail" src="img/message.png" width="20px" alt="">
+        </div>
+        <div>
+         <input class="message" type="text" id="mensaje" placeholder="Mensaje"> <img class="pen"  src="img/pen.png" width="20px" alt="">
+        </div>
          <input class="send" type="submit" value="ENVIAR">
        </form>
       </div>
     </section>
 
 <!--INCIO DE  FOOTER--> 
-    <footer>
+    <footer class="contenedor">
       <p>ⒸEscuela de danza. Todos los derechos reservados.</p>   
     </footer>
 </body>

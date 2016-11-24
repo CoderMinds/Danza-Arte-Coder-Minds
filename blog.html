@@ -4,31 +4,24 @@
 		<meta charset="UTF-8">
 		<title>Escuela de Danza</title>
 		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-		<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/utilities.css">
 		<link rel="stylesheet" type="text/css" href="css/common.css">
 		<link rel="stylesheet" type="text/css" href="css/blog.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
 	</head>
 	<body>
 		<header>
-			<div class="container">
-				<div class="row">
-					<div class="col-12 text-center text-blue fs-header">
-						<div>
-							<a href="index.html"> ESCUELA DE DANZA</a>
-						</div>
-						<a href="nosotros.html" target="_blank">Nosotros</a>
-						<a href="clases.html" target="_blank">Clases</a>
-						<a href="blog.html" target="_blank">Blog</a>
-						<a href="#formulario">Contáctanos</a>
-					</div>
-				</div>
-			</div>
-		</header>
+            <h1 class="text-blue">ESCUELA DE DANZA</h1>
+            <ul class="nav">
+                <li><a href="nosotros.html" target="_blank">Nosotros</a></li>
+                <li><a href="clases.html" target="_blank">Clases</a></li>
+                <li><a href="blog.html" target="_blank" >Blog</a></li>
+                <li><a href="#contactanos" >Contáctanos</a></li>
+            </ul>  
+        </header>
     <div class="container-hero">
         <h3>BLOG</h3>
-		<div class="container">
+		<div class="contenedor">
 		    <div class="row">
                 <div class="col-md-4">
                     <img src="img/blog1.jpg" alt="" class="blog1">
@@ -43,7 +36,7 @@
 		</div>
 		<br>
 		<br>
-		<div class="container">
+		<div class="contenedor">
 		    <div class="row">
                 <div class="col-md-4">
                     <img src="img/profesor_5.jpg" alt="" class="blog1">
@@ -58,7 +51,7 @@
 		</div>
         <br>
 		<br>
-            <div class="container">
+            <div class="contenedor">
 		    <div class="row">
                 <div class="col-md-4">
                     <img src="img/instructor_3.jpg" alt="" class="blog1">
@@ -73,25 +66,28 @@
 		</div>
         <br>
 		<br>
-			<div class="shoes-" id="formulario">
-				<div class="container">
-					<div class="row">
-							<h2>Contactanos</h2>
-							<form>
-								<input type="text" placeholder="Nombre" class="form pers-ico">
-								<br/>
-								<input type="text" placeholder="Email" class="form em-ico">
-								<br/>
-								<input type="text" placeholder="Mensaje" class="form mens">
-								<br/>
-								<input type="submit" placeholder="ENVIAR" class="bt-enviar">
-							</form>
-					</div>
-				</div>
-			</div>
-</div>
-		<footer >
-				<p class="footer">Escuela de denza. Todos los derechos reservados</p>
+   </div>
+			<section class="contenido">
+              <div class="contenedor">
+                <a name="contactanos"></a>
+                <h2 class="text-blue">Contáctanos</h2>    
+                <form action="">
+                  <div>
+                    <input type="text" id="nombre" placeholder="Nombre"> <img class="name" src="img/name.png" width="20px" alt="">
+                  </div>
+                  <div>
+                    <input type="text" id="email" placeholder="Email"> <img class="mail" src="img/message.png" width="20px" alt="">
+                  </div>
+                  <div>
+                    <input class="message" type="text" id="mensaje" placeholder="Mensaje"> <img class="pen"  src="img/pen.png" width="20px" alt="">
+                  </div>
+                  <input class="send" type="submit" value="ENVIAR">
+                </form>
+              </div>
+            </section>
+
+		<footer class="contenedor">
+				<p class="footer">ⒸEscuela de danza. Todos los derechos reservados.</p>
 		</footer>
 	</body>
 </html>

@@ -18,7 +18,7 @@
           <li><a href="nosotros.html" target="_blank">Nosotros</a></li>
           <li><a href="clases.html" target="_blank">Clases</a></li>
           <li><a href="blog.html" target="_blank" >Blog</a></li>
-          <li><a href="#contactanos" target="_blank">Contáctanos</a></li>
+          <li><a href="#contactanos">Contáctanos</a></li>
       </ul>  
     </header>
           
@@ -127,18 +127,22 @@
        <a name="contactanos"></a>
        <h2 class="text-blue">Contáctanos</h2>    
        <form action="">
-         <label class="user" for="nombre"></label>
-         <input type="text" id="nombre" placeholder="Nombre">
-         <input type="text" id="email" placeholder="Email">
-         <label class="message" for="mensaje"></label>
-         <textarea type="text" id="mensaje" placeholder="Mensaje"></textarea>
+        <div>
+         <input type="text" id="nombre" placeholder="Nombre"> <img class="name" src="img/name.png" width="20px" alt="">
+        </div>
+        <div>
+         <input type="text" id="email" placeholder="Email"> <img class="mail" src="img/message.png" width="20px" alt="">
+        </div>
+        <div>
+         <input class="message" type="text" id="mensaje" placeholder="Mensaje"> <img class="pen"  src="img/pen.png" width="20px" alt="">
+        </div>
          <input class="send" type="submit" value="ENVIAR">
        </form>
       </div>
     </section>
 
 <!--INCIO DE  FOOTER--> 
-    <footer>
+    <footer class="contenedor">
       <p>ⒸEscuela de danza. Todos los derechos reservados.</p>   
     </footer>
 
